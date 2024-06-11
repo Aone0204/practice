@@ -7,7 +7,7 @@
 #・それ以外の場合は、そのままの数字を表示する
 
 def Pud_ding(numbers):
-    # ここに処理を記述してください
+
   for numbers in range(1, 36, 1):
     if numbers % 35 == 0 :
       print(str(numbers) + ":Pudding")
